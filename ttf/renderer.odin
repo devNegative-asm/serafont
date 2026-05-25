@@ -9,8 +9,7 @@ import "core:time"
 import "core:math/linalg"
 import "core:math"
 import "core:simd"
-import "core:fmt"
-import "../odin-cuda-bindings/cuda"
+import "shared:devnegative-asm/odin-cuda-bindings/cuda"
 import "vendor:kb_text_shape"
 
 _EPS :: 1e-2

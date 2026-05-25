@@ -6,8 +6,8 @@ import "core:time"
 import "core:os"
 import "core:log"
 import "core:fmt"
-import "odin-cuda-bindings/cuda"
-import "odin-cuda-bindings/nvrtc"
+import "shared:devnegative-asm/odin-cuda-bindings/cuda"
+import "shared:devnegative-asm/odin-cuda-bindings/nvrtc"
 import "ttf"
 
 write_ppm :: proc(name: string, rgb: []u8,  #any_int w,h: int) {

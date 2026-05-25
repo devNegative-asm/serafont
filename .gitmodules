@@ -1,3 +1,0 @@
-[submodule "odin-cuda-bindings"]
-	path = odin-cuda-bindings
-	url = https://github.com/devNegative-asm/odin-cuda-bindings.git
